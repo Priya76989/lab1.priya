@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="443.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="org.example.priya.HelloController">
+    <children>
+        <TableView fx:id="tableView">
+            <columns>
+                <TableColumn fx:id="id" text="ID" />
+                <TableColumn fx:id="student" text="Student" />
+                <TableColumn fx:id="teacher" text="Teacher" />
+                <TableColumn fx:id="className" text="Class Name" />
+            </columns>
+        </TableView>
+        <Button fx:id="loaddata" layoutX="345.0" layoutY="167.0" onAction="#onHelloButtonClick" text="Load Data" />
+    </children>
+</AnchorPane>
